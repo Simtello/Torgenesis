@@ -45,7 +45,7 @@ Here is the step-by-step lifecycle of an injection:
 The framework offers an intricate level of control over the mathematical structure being injected. Every parameter can be adjusted in real-time via the Torgenesis Control Center.
 
 **Geometry & Scale**
-* **Major Radius:** Defines the primary outer ring size of the geometric trap.
+* **Major Radius:** Defines the primary outer ring size of the geometric net.
 * **Minor Radius:** Dictates the thickness of the toroid's tube.
 * **Line Count U & V:** Controls the radial and tubular segment density, acting as the "resolution" of the shape.
 * **Scale:** Adjusts the overall size multiplier of the structure within the latent space.
@@ -53,11 +53,11 @@ The framework offers an intricate level of control over the mathematical structu
 
 **Motion & Rotation**
 * **Starting Angles (Pitch, Roll, Yaw):** Orients the initial 3D position of the shape before generation begins.
-* **Rotation Velocity (X, Y, Z):** Defines the continuous spin speed per generated token, creating a dynamic, moving trap.
+* **Rotation Velocity (X, Y, Z):** Defines the continuous spin speed per generated token, creating a dynamic, moving net.
 
 **The Void & Injection**
 * **Target Layer:** Specifies the exact neural network layer (e.g., Layer 14) to intercept and modify during the forward pass.
-* **Intensity Multiplier:** The brute-force scaling factor that overrides the model's baseline thoughts with the generated geometry.
+* **Intensity Multiplier:** The leveraged scaling factor that overrides the model's baseline thoughts with the generated geometry.
 * **Void Intensity:** Controls the volume/loudness of the background float static the shape is submerged in.
 * **Weighting Table:** An array that distributes structural mass unevenly across the toroid, creating dense or hollow sections.
 * **Max Tokens:** Sets the maximum length of the generated response.
